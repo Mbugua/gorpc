@@ -4,9 +4,11 @@ import (
 	"io"
 	"testing"
 
-	"github.com/golang/mock/gomock"
-	"github.com/mbugua/gorpc/machine"
-	"github.com/mbugua/gorpc/mock_machine"
+	"github.com/toransahu/grpc-eg-go/machine"
+	"github.com/toransahu/grpc-eg-go/utils"
+	"github.com/toransahu/grpc-eg-go/utils/stack"
+	"google.golang.org/grpc/codes"
+	"google.golang.org/grpc/status"
 )
 
 func TestExecute(t *testing.T) {

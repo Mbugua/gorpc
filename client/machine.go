@@ -7,7 +7,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/mbugua/gorpc/machine"
+	"github.com/toransahu/grpc-eg-go/machine"
 	"google.golang.org/grpc"
 )
 

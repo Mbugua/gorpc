@@ -12,9 +12,9 @@ import (
 	"io"
 	"log"
 
-	"github.com/mbugua/gorpc/machine"
-	"github.com/mbugua/gorpc/utils"
-	"github.com/mbugua/gorpc/utils/stack"
+	"github.com/toransahu/grpc-eg-go/machine"
+	"github.com/toransahu/grpc-eg-go/utils"
+	"github.com/toransahu/grpc-eg-go/utils/stack"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

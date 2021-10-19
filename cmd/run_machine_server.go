@@ -6,8 +6,8 @@ import (
 	"log"
 	"net"
 
-	"github.com/mbugua/gorpc/machine"
-	"github.com/mbugua/gorpc/server"
+	"github.com/toransahu/grpc-eg-go/machine"
+	"github.com/toransahu/grpc-eg-go/server"
 	"google.golang.org/grpc"
 )
 

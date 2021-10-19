@@ -8,9 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mbugua/gorpc/machine"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/test/bufconn"
+	"github.com/toransahu/grpc-eg-go/machine"
+	"github.com/toransahu/grpc-eg-go/utils"
+	"github.com/toransahu/grpc-eg-go/utils/stack"
+	"google.golang.org/grpc/codes"
+	"google.golang.org/grpc/status"
 )
 
 const bufSize = 1024 * 1024
