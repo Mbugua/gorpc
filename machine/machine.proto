@@ -1,0 +1,17 @@
+syntax = "proto3";
+package machine;
+
+option go_package = "github.com/mbugua/gorpc/machine";
+
+service Machine {
+    rpc Execute(stream Instruction) returns (stream Result) {}
+}
+
+message Instruction {
+    string operator = 1;
+    int32 operand = 2;
+}
+
+message Result {
+    float output = 1;
+}
